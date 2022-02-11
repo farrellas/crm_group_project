@@ -1,0 +1,14 @@
+body {
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height: 100px;
+}
+
+.nav {
+    align-content: center;
+}
+
