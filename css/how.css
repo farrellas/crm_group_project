@@ -1,0 +1,164 @@
+#line-page {
+    height: 1px;
+    min-width: 300px;
+    max-width: 600px;
+    border: none;
+    background-color: rgb(177, 177, 177);
+}
+
+#text-block {
+    display: flex;
+    margin: auto;
+    width: 280px;
+}
+
+#text-block p {
+    font-weight: 1000;
+    display: flex;
+}
+
+.h-i-w {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.h-i-w p {
+    margin-top: 30px;
+}
+
+.h-i-w-text {
+    width: 100%;
+}
+
+#text-body-upper {
+    margin-bottom: -20px;
+}
+
+.pic-block {
+    height: 400px;
+    min-width: 400px;
+    max-width: 800px;
+    display: flex;
+    margin: 0px auto;
+}
+
+.inner-pic-block {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.pic-block-left {
+    display: flex;
+    height: 70%;
+    flex-direction: row;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-content: space-between;
+    border: 1px solid rgb(195, 195, 195);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+} 
+
+.pic-block-left img {
+    height: 50%;
+    display: flex;
+    margin: auto 30px auto 20px;
+
+}
+
+.pic-block-right {
+    display: flex;
+    color: white;
+    height: 70%;
+    flex: 2 1 auto;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(8, 80, 248);
+    padding-bottom: 0px rgb(8, 80, 248);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#take-payments {
+    border: none;
+}
+
+#take-payments img {
+    height: 80%;
+    display: block;
+    margin: auto;
+    padding: 0px 50px;
+
+}
+
+#footer {
+    min-width: 400px;
+    max-width: 800px;
+    text-align: center;
+    color: white;
+    background-color: rgb(8, 80, 248);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#footer-inner-cont {
+    width: 350px;
+}
+
+#btns-footer-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+#btn-get-started-footer {
+    width: 150px;
+    color: white;
+    background-color: rgb(127, 209, 38);
+}
+
+#btn-chat-footer {
+    width: 100px;
+    color: black;
+    background-color: white;
+}
+
+.btns-footer { 
+    height: 30px;
+    border-radius: 4px;
+    padding: 0px;
+    border: none;
+}
+
+#footnote-bar-footer {
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+#foot-bar-img-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#foot-bar-img-cont img {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ellipse-footer {
+    height:10px;
+}
