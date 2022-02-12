@@ -1,0 +1,56 @@
+#footer {
+    min-width: 400px;
+    max-width: 600px;
+    text-align: center;
+    color: white;
+    background-color: rgb(8, 80, 248);
+}
+
+#btns-footer-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+#btn-get-started-footer {
+    width: 150px;
+    color: white;
+    background-color: rgb(127, 209, 38);
+}
+
+#btn-chat-footer {
+    width: 100px;
+    color: black;
+    background-color: white;
+}
+
+.btns-footer { 
+    height: 30px;
+    border-radius: 4px;
+    padding: 0px;
+    border: none;
+}
+
+#footnote-bar-footer {
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+#foot-bar-img-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#foot-bar-img-cont img {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ellipse-footer {
+    height:10px;
+}
