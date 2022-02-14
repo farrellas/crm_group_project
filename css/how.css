@@ -33,6 +33,7 @@
 .h-i-w-text {
     width: 100%;
     font-size: small;
+    text-align: center;
 }
 
 #text-body-upper {
