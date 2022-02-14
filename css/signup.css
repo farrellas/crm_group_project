@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
 .signup-btn {
     display: flex;
     justify-content: center;
@@ -38,14 +44,11 @@
     border-radius: 50px;
     border: 1px solid black; 
     height: 30px; 
-
 }
 
 h2 {
     color: black;
 }
-
-
 
 .signup-btn{
     text-decoration: none;
@@ -65,26 +68,22 @@ h2 {
     border: 1px solid black;
     border-radius: 50%;
     height: 35px;
-    width: 50px;
+    width: 30px;
     padding-top: 15px;
+    padding-left: 20px;
     text-decoration: none;
-     
+    margin: 10px 20px;
 }
 
 .social-platform-text{
-     font-size: medium;
-     font-weight: bold;
+    font-size: medium;
+    font-weight: bold;
 }
 
-.screen-left{
-display: flex;
-align-items: center;
-justify-content: center;
-
-}
-
-.screen-right{
-margin: auto;
+#left-lower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .flex{
@@ -92,14 +91,11 @@ margin: auto;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .pic-bottom{
-    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    
+    width: 50%;
 }
